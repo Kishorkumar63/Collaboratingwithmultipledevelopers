@@ -1,14 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>Frontend Kishor</h1>
-     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi ratione eos voluptatem dicta voluptates nisi qui optio, amet dolor explicabo omnis non nulla ad, rem ut asperiores veniam porro?</p>
-    
-</body>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+      eligendi ratione eos voluptatem dicta voluptates nisi qui optio, amet
+      dolor explicabo omnis non nulla ad, rem ut asperiores veniam porro?
+    </p>
+
+    <!-- GIT COMMENTS -->
+
+    <!-- 
+
+
+      --anyname is called => Flag
+
+1. git --version
+
+2.git config
+
+3.git init =>Create Empty Git respository   // creating /.git / Floader
+     // In local system creating git environement
+
+//U=>It untracked File
+//M=>Modified
+//A=>Added => after Git add Comment
+
+4. git add =>Add Files For Tracking  File
+     //git add fileName
+  
+
+5. git log =>Show Commit List
+
+6.git commit => Save Changes to the respository
+    git commit -m "Create new File"
+     -m =>message
+     it will save commit in the respository
+
+//This Message Will come In  Our File can be Modified after You Will give git commit -m "" This Message Will Occur
+// SO  We First Converted Into staged =>git add fileName
+ [ //Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+        modified:   newFile.txt]
+
+
+==================================(or)======================
+
+7.git commit -a -m "My Third Commit Without Statging"
+
+==============================================================
+
+
+8.git diff =>Show Changes Between Commits 
+     // what  data  are  the insert  Our File 
+     //after staged it will Not Work =>git add comment
+
+ =======================after staged it will Work Comment=========================
+ 9.git diff --staged
+
+
+10. git rm --cached .\fileName =>It Remove The File In respository or Remove Files form Tracking
+              / / --cached It Remove The File In respository and Stored In the out
+           
+              /*
+              
+              git rm --cached .\credential.txt
+              rm 'credential.txt'
+              */
+
+===========================Remove Uncommitted Changes=============================
+
+
+
+//it Remove with staged =>like you git add comment means but if you want modify your file means you giv :=>git reset HEAD
+11.git reset Head
+
+
+12.git restore 
+   // it Store before committed Data
+
+
+
+
+//delete the Commit
+13.git reset --hard /*Commit Id*/
+
+
+
+
+
+/*Code Synchronization?*/
+
+Backend And Frontend code upload in common Place and that code download and use that code is called code Synchronization
+  
+
+14.git branch =>What is our branch
+    // git branch -a =>show all the branches
+
+
+15. git checkout -b "Frontend" =>Creaing New branch
+
+16.git checkout main =>Changing branch directory
+
+
+17. git push origin Frontend =>Push The Code Into  our branch
+
+18. git pull <remote> <branch>
+
+
+19.git pull
+
+20.git stash =>delete Files
+
+21.git stash pop =>get delete File
+
+22.git branch -M "KK" =>Changing branch name
+
+ -->
+  </body>
 </html>
